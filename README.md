@@ -16,7 +16,7 @@ At each audited timestep:
 ```bash
 pip install torch torchvision diffusers transformers accelerate
 pip install opencv-python-headless pillow numpy tqdm matplotlib datasets
-pip install wandb lpips scikit-learn  # optional
+pip install wandb lpips scikit-learn
 ```
 
 Auditor weights and vocab download automatically from HuggingFace on first run.
@@ -66,6 +66,15 @@ src/
     metrics.py             # VGG-LPIPS seam quality, guard utility
     visualise.py           # tournament grid visualisation
 ```
+## Sample Outputs
+
+<img width="620" height="620" alt="image" src="https://github.com/user-attachments/assets/5c7854a8-3ad7-4b6c-be41-8829f17a618f" />
+
+<img width="620" height="620" alt="image" src="https://github.com/user-attachments/assets/3a38eb2d-a62f-4831-81eb-c0f84edd9ea9" />
+
+<img width="650" height="650" alt="image" src="https://github.com/user-attachments/assets/20f6097e-7510-45bc-96f3-581b706f1df8" />
+
+<img width="1600" height="634" alt="image" src="https://github.com/user-attachments/assets/f501cc4f-ab80-4d12-a1c0-fdc879a590ac" />
 
 ## Outputs
 
